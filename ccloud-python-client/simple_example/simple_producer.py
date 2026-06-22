@@ -15,10 +15,10 @@ def read_config():
 def produce(topic, config):
   # creates a new producer instance
   producer = Producer(config)
-  for i in range(10):
+  for i in range(5):
   # produces a sample message
-    key = f"key_{i}"
-    value = f"value_{i}"
+    key = f"demo_key_{i}"
+    value = f"demo_value_{i}"
     producer.produce(topic, key=key, value=value)
     print(f"Produced message to topic {topic}: key = {key:12} value = {value:12}")
 
@@ -29,10 +29,10 @@ def produce(topic, config):
 
 def main():
   config = read_config()
-  topic = "topic_1"
+  topic = "kafka_demo_class_2"
 
   produce(topic, config)
-  consume(topic, config)
+  # consume(topic, config)
 
 
 main()

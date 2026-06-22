@@ -10,7 +10,7 @@ The instructions use `virtualenv` but you may use other virtual environment mana
 
 Create Confluent Cloud account follow the below link
 
-```https://login.confluent.io/login?state=hKFo2SB6UndSdkZKY1pPVkZnbkhIOUR1cU5sRFhpTVJfRmVib6FupWxvZ2luo3RpZNkgWll5ZTVzcll4MjlvRHlYdWZ5ZmVtaFJsb2VYTVZTel-jY2lk2SBsMmhPcDBTMHRrU0IwVEZ0dklZZlpaOUVhS0Z2clNjNg&client=l2hOp0S0tkSB0TFtvIYfZZ9EaKFvrSc6&protocol=oauth2&prompt=login&audience=https%3A%2F%2Fconfluent.cloud%2Fapi&useRefreshTokensFallback=true&redirect_uri=https%3A%2F%2Fconfluent.cloud%2Fauth_callback&redirect_path=%2F&last_org_resource_id_map=%7B%2231d80a8475e396bec1b78cac871ec2359400fa4d32d49be98362db28b91c30d7%22%3A%7B%22org_resource_id%22%3A%22801ae530-567d-4e49-b90c-2596802f54c9%22%2C%22timestamp%22%3A1782072325281%2C%22is_sso%22%3Afalse%7D%7D&segment_anon_id=5c00a1a3-3ffb-49ba-add8-2dfaea629254&scope=openid%20profile%20email%20offline_access&response_type=code&response_mode=query&nonce=aDFBaUttOHl0WGlLYU5fTVlHNTBjektuOHBkMFBBdU94S3BLZGU3NzlaSQ%3D%3D&code_challenge=SJ7GRwUvWg10Wyx6WWY0eQCuORhVlmV4ya9sESZASP0&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtcmVhY3QiLCJ2ZXJzaW9uIjoiMS4xMi4xIn0%3D```
+```https://confluent.cloud/environments```
 
 ## Installation
 

@@ -39,7 +39,7 @@ def consume(topic, config):
 
 def main():
   config = read_config()
-  topic = "topic_1"
+  topic = "kafka_demo_class_2"
 
   consume(topic, config)
 

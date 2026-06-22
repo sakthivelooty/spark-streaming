@@ -75,7 +75,7 @@ class RobustConsumer:
 
 def main():
     config = read_config()
-    target_topic = "kafka_demo_class"
+    target_topic = "kafka_demo_class_2"
 
 
     consumer_node = RobustConsumer(config)

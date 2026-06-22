@@ -81,7 +81,7 @@ class AdvancedProducer:
 def main():
     config = read_config()
     print(config)
-    target_topic = "kafka_demo_class"
+    target_topic = "kafka_demo_class_2"
 
     # Step 1: Demonstrate Advanced Producing Mechanics
     producer_node = AdvancedProducer(config)
